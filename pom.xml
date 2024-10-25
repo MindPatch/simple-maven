@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+        <!-- Known vulnerability in Jackson-Databind 2.9.8 (CVE-2019-12384) -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -30,6 +31,22 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.9.8</version>
         </dependency>
+
+        <!-- Known vulnerability in Apache Commons Collections 3.2.1 (CVE-2015-6420) -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <!-- Known vulnerability in Log4j 1.2.17 (CVE-2019-17571) -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- Older version of JSON library with potential security issues -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
