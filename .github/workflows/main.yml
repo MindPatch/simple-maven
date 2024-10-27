@@ -18,3 +18,4 @@ jobs:
         env:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}  # Optional if using blacklock.yml
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Optional if using blacklock.yml
+          SONAR_PROJECTKEY: "new_maven"
