@@ -1,0 +1,1058 @@
+{
+  "issues": [
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-14379",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-14379",
+      "title": "[pom.xml] CVE-2019-14379",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-14540",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-14540",
+      "title": "[pom.xml] CVE-2019-14540",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-16335",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-16335",
+      "title": "[pom.xml] CVE-2019-16335",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-16942",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-16942",
+      "title": "[pom.xml] CVE-2019-16942",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-16943",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-16943",
+      "title": "[pom.xml] CVE-2019-16943",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-17267",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-17267",
+      "title": "[pom.xml] CVE-2019-17267",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-17531",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-17531",
+      "title": "[pom.xml] CVE-2019-17531",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-20330",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-20330",
+      "title": "[pom.xml] CVE-2019-20330",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-8840",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-8840",
+      "title": "[pom.xml] CVE-2020-8840",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-9546",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-9546",
+      "title": "[pom.xml] CVE-2020-9546",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-9547",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-9547",
+      "title": "[pom.xml] CVE-2020-9547",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-9548",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-9548",
+      "title": "[pom.xml] CVE-2020-9548",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-12086",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-12086",
+      "title": "[pom.xml] CVE-2019-12086",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-14439",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-14439",
+      "title": "[pom.xml] CVE-2019-14439",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-14892",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-14892",
+      "title": "[pom.xml] CVE-2019-14892",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-14893",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-14893",
+      "title": "[pom.xml] CVE-2019-14893",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-10650",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-10650",
+      "title": "[pom.xml] CVE-2020-10650",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-10672",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-10672",
+      "title": "[pom.xml] CVE-2020-10672",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-10673",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-10673",
+      "title": "[pom.xml] CVE-2020-10673",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-10968",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-10968",
+      "title": "[pom.xml] CVE-2020-10968",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-10969",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-10969",
+      "title": "[pom.xml] CVE-2020-10969",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-11111",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-11111",
+      "title": "[pom.xml] CVE-2020-11111",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-11112",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-11112",
+      "title": "[pom.xml] CVE-2020-11112",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-11113",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-11113",
+      "title": "[pom.xml] CVE-2020-11113",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-11619",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-11619",
+      "title": "[pom.xml] CVE-2020-11619",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-11620",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-11620",
+      "title": "[pom.xml] CVE-2020-11620",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-14060",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-14060",
+      "title": "[pom.xml] CVE-2020-14060",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-14061",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-14061",
+      "title": "[pom.xml] CVE-2020-14061",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-14062",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-14062",
+      "title": "[pom.xml] CVE-2020-14062",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-14195",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-14195",
+      "title": "[pom.xml] CVE-2020-14195",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-24616",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-24616",
+      "title": "[pom.xml] CVE-2020-24616",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-24750",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-24750",
+      "title": "[pom.xml] CVE-2020-24750",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-25649",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-25649",
+      "title": "[pom.xml] CVE-2020-25649",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-35490",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-35490",
+      "title": "[pom.xml] CVE-2020-35490",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-35491",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-35491",
+      "title": "[pom.xml] CVE-2020-35491",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-35728",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-35728",
+      "title": "[pom.xml] CVE-2020-35728",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36179",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36179",
+      "title": "[pom.xml] CVE-2020-36179",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36180",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36180",
+      "title": "[pom.xml] CVE-2020-36180",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36181",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36181",
+      "title": "[pom.xml] CVE-2020-36181",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36182",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36182",
+      "title": "[pom.xml] CVE-2020-36182",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36183",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36183",
+      "title": "[pom.xml] CVE-2020-36183",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36184",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36184",
+      "title": "[pom.xml] CVE-2020-36184",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36185",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36185",
+      "title": "[pom.xml] CVE-2020-36185",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36186",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36186",
+      "title": "[pom.xml] CVE-2020-36186",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36187",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36187",
+      "title": "[pom.xml] CVE-2020-36187",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36188",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36188",
+      "title": "[pom.xml] CVE-2020-36188",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36189",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36189",
+      "title": "[pom.xml] CVE-2020-36189",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2020-36518",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2020-36518",
+      "title": "[pom.xml] CVE-2020-36518",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2021-20190",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2021-20190",
+      "title": "[pom.xml] CVE-2021-20190",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-42003",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-42003",
+      "title": "[pom.xml] CVE-2022-42003",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-42004",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-42004",
+      "title": "[pom.xml] CVE-2022-42004",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-12384",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-12384",
+      "title": "[pom.xml] CVE-2019-12384",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-12814",
+        "textRange": {
+          "startLine": 19,
+          "startColumn": 0,
+          "endLine": 23,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-12814",
+      "title": "[pom.xml] CVE-2019-12814",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2015-7501",
+        "textRange": {
+          "startLine": 36,
+          "startColumn": 0,
+          "endLine": 40,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2015-7501",
+      "title": "[pom.xml] CVE-2015-7501",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2015-6420",
+        "textRange": {
+          "startLine": 36,
+          "startColumn": 0,
+          "endLine": 40,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2015-6420",
+      "title": "[pom.xml] CVE-2015-6420",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2019-17571",
+        "textRange": {
+          "startLine": 43,
+          "startColumn": 0,
+          "endLine": 47,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2019-17571",
+      "title": "[pom.xml] CVE-2019-17571",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-23305",
+        "textRange": {
+          "startLine": 43,
+          "startColumn": 0,
+          "endLine": 47,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-23305",
+      "title": "[pom.xml] CVE-2022-23305",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-23307",
+        "textRange": {
+          "startLine": 43,
+          "startColumn": 0,
+          "endLine": 47,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-23307",
+      "title": "[pom.xml] CVE-2022-23307",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2021-4104",
+        "textRange": {
+          "startLine": 43,
+          "startColumn": 0,
+          "endLine": 47,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2021-4104",
+      "title": "[pom.xml] CVE-2021-4104",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-23302",
+        "textRange": {
+          "startLine": 43,
+          "startColumn": 0,
+          "endLine": 47,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-23302",
+      "title": "[pom.xml] CVE-2022-23302",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2022-45688",
+        "textRange": {
+          "startLine": 50,
+          "startColumn": 0,
+          "endLine": 54,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2022-45688",
+      "title": "[pom.xml] CVE-2022-45688",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Trivy",
+      "primaryLocation": {
+        "filePath": "pom.xml",
+        "message": "[pom.xml] CVE-2023-5072",
+        "textRange": {
+          "startLine": 50,
+          "startColumn": 0,
+          "endLine": 54,
+          "endColumn": 0
+        }
+      },
+      "ruleId": "CVE-2023-5072",
+      "title": "[pom.xml] CVE-2023-5072",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    }
+  ]
+}

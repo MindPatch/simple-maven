@@ -1,0 +1,3374 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "fullName": "Trivy Vulnerability Scanner",
+          "informationUri": "https://github.com/aquasecurity/trivy",
+          "name": "Trivy",
+          "rules": [
+            {
+              "id": "CVE-2019-14379",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: default typing mishandling leading to remote code execution"
+              },
+              "fullDescription": {
+                "text": "SubTypeValidator.java in FasterXML jackson-databind before 2.9.9.2 mishandles default typing when ehcache is used (because of net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup), leading to remote code execution."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-14379",
+              "help": {
+                "text": "Vulnerability CVE-2019-14379\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6\nLink: [CVE-2019-14379](https://avd.aquasec.com/nvd/cve-2019-14379)\nSubTypeValidator.java in FasterXML jackson-databind before 2.9.9.2 mishandles default typing when ehcache is used (because of net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup), leading to remote code execution.",
+                "markdown": "**Vulnerability CVE-2019-14379**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.9.2, 2.8.11.4, 2.7.9.6|[CVE-2019-14379](https://avd.aquasec.com/nvd/cve-2019-14379)|\n\nSubTypeValidator.java in FasterXML jackson-databind before 2.9.9.2 mishandles default typing when ehcache is used (because of net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup), leading to remote code execution."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-14540",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariConfig"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariConfig."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-14540",
+              "help": {
+                "text": "Vulnerability CVE-2019-14540\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-14540](https://avd.aquasec.com/nvd/cve-2019-14540)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariConfig.",
+                "markdown": "**Vulnerability CVE-2019-14540**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10, 2.8.11.5, 2.6.7.3|[CVE-2019-14540](https://avd.aquasec.com/nvd/cve-2019-14540)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariConfig."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-16335",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariDataSource"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariDataSource. This is a different vulnerability than CVE-2019-14540."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-16335",
+              "help": {
+                "text": "Vulnerability CVE-2019-16335\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16335](https://avd.aquasec.com/nvd/cve-2019-16335)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariDataSource. This is a different vulnerability than CVE-2019-14540.",
+                "markdown": "**Vulnerability CVE-2019-16335**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10, 2.8.11.5, 2.6.7.3|[CVE-2019-16335](https://avd.aquasec.com/nvd/cve-2019-16335)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariDataSource. This is a different vulnerability than CVE-2019-14540."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-16942",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.apache.commons.dbcp.datasources.*"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-16942",
+              "help": {
+                "text": "Vulnerability CVE-2019-16942\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16942](https://avd.aquasec.com/nvd/cve-2019-16942)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling.",
+                "markdown": "**Vulnerability CVE-2019-16942**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.1, 2.8.11.5, 2.6.7.3|[CVE-2019-16942](https://avd.aquasec.com/nvd/cve-2019-16942)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-16943",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in com.p6spy.engine.spy.P6DataSource"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the p6spy (3.8.6) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of com.p6spy.engine.spy.P6DataSource mishandling."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-16943",
+              "help": {
+                "text": "Vulnerability CVE-2019-16943\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16943](https://avd.aquasec.com/nvd/cve-2019-16943)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the p6spy (3.8.6) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of com.p6spy.engine.spy.P6DataSource mishandling.",
+                "markdown": "**Vulnerability CVE-2019-16943**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.1, 2.8.11.5, 2.6.7.3|[CVE-2019-16943](https://avd.aquasec.com/nvd/cve-2019-16943)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the p6spy (3.8.6) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of com.p6spy.engine.spy.P6DataSource mishandling."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-17267",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in classes of the ehcache package"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to net.sf.ehcache.hibernate.EhcacheJtaTransactionManagerLookup."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-17267",
+              "help": {
+                "text": "Vulnerability CVE-2019-17267\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10, 2.8.11.5\nLink: [CVE-2019-17267](https://avd.aquasec.com/nvd/cve-2019-17267)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to net.sf.ehcache.hibernate.EhcacheJtaTransactionManagerLookup.",
+                "markdown": "**Vulnerability CVE-2019-17267**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10, 2.8.11.5|[CVE-2019-17267](https://avd.aquasec.com/nvd/cve-2019-17267)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to net.sf.ehcache.hibernate.EhcacheJtaTransactionManagerLookup."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-17531",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.apache.log4j.receivers.db.*"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the apache-log4j-extra (version 1.2.x) jar in the classpath, and an attacker can provide a JNDI service to access, it is possible to make the service execute a malicious payload."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-17531",
+              "help": {
+                "text": "Vulnerability CVE-2019-17531\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-17531](https://avd.aquasec.com/nvd/cve-2019-17531)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the apache-log4j-extra (version 1.2.x) jar in the classpath, and an attacker can provide a JNDI service to access, it is possible to make the service execute a malicious payload.",
+                "markdown": "**Vulnerability CVE-2019-17531**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.1, 2.8.11.5, 2.6.7.3|[CVE-2019-17531](https://avd.aquasec.com/nvd/cve-2019-17531)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the apache-log4j-extra (version 1.2.x) jar in the classpath, and an attacker can provide a JNDI service to access, it is possible to make the service execute a malicious payload."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-20330",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: lacks certain net.sf.ehcache blocking"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.2 lacks certain net.sf.ehcache blocking."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-20330",
+              "help": {
+                "text": "Vulnerability CVE-2019-20330\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2\nLink: [CVE-2019-20330](https://avd.aquasec.com/nvd/cve-2019-20330)\nFasterXML jackson-databind 2.x before 2.9.10.2 lacks certain net.sf.ehcache blocking.",
+                "markdown": "**Vulnerability CVE-2019-20330**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2|[CVE-2019-20330](https://avd.aquasec.com/nvd/cve-2019-20330)|\n\nFasterXML jackson-databind 2.x before 2.9.10.2 lacks certain net.sf.ehcache blocking."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-8840",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Lacks certain xbean-reflect/JNDI blocking"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-8840",
+              "help": {
+                "text": "Vulnerability CVE-2020-8840\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3\nLink: [CVE-2020-8840](https://avd.aquasec.com/nvd/cve-2020-8840)\nFasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.",
+                "markdown": "**Vulnerability CVE-2020-8840**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3|[CVE-2020-8840](https://avd.aquasec.com/nvd/cve-2020-8840)|\n\nFasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-9546",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in shaded-hikari-config"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig (aka shaded hikari-config)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-9546",
+              "help": {
+                "text": "Vulnerability CVE-2020-9546\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-9546](https://avd.aquasec.com/nvd/cve-2020-9546)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig (aka shaded hikari-config).",
+                "markdown": "**Vulnerability CVE-2020-9546**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-9546](https://avd.aquasec.com/nvd/cve-2020-9546)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig (aka shaded hikari-config)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-9547",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in ibatis-sqlmap"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig (aka ibatis-sqlmap)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-9547",
+              "help": {
+                "text": "Vulnerability CVE-2020-9547\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9547](https://avd.aquasec.com/nvd/cve-2020-9547)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig (aka ibatis-sqlmap).",
+                "markdown": "**Vulnerability CVE-2020-9547**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.4, 2.8.11.6, 2.7.9.7|[CVE-2020-9547](https://avd.aquasec.com/nvd/cve-2020-9547)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig (aka ibatis-sqlmap)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-9548",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in anteros-core"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPConfig (aka anteros-core)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-9548",
+              "help": {
+                "text": "Vulnerability CVE-2020-9548\nSeverity: CRITICAL\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9548](https://avd.aquasec.com/nvd/cve-2020-9548)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPConfig (aka anteros-core).",
+                "markdown": "**Vulnerability CVE-2020-9548**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|com.fasterxml.jackson.core:jackson-databind|2.9.10.4, 2.8.11.6, 2.7.9.7|[CVE-2020-9548](https://avd.aquasec.com/nvd/cve-2020-9548)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPConfig (aka anteros-core)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-12086",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: polymorphic typing issue allows attacker to read arbitrary local files on the server."
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-12086",
+              "help": {
+                "text": "Vulnerability CVE-2019-12086\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.9, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12086](https://avd.aquasec.com/nvd/cve-2019-12086)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation.",
+                "markdown": "**Vulnerability CVE-2019-12086**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.9, 2.8.11.4, 2.7.9.6, 2.6.7.3|[CVE-2019-12086](https://avd.aquasec.com/nvd/cve-2019-12086)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-14439",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Polymorphic typing issue related to logback/JNDI"
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9.2. This occurs when Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the logback jar in the classpath."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-14439",
+              "help": {
+                "text": "Vulnerability CVE-2019-14439\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-14439](https://avd.aquasec.com/nvd/cve-2019-14439)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9.2. This occurs when Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the logback jar in the classpath.",
+                "markdown": "**Vulnerability CVE-2019-14439**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.9.2, 2.8.11.4, 2.7.9.6, 2.6.7.3|[CVE-2019-14439](https://avd.aquasec.com/nvd/cve-2019-14439)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9.2. This occurs when Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the logback jar in the classpath."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-14892",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in classes of the commons-configuration package"
+              },
+              "fullDescription": {
+                "text": "A flaw was discovered in jackson-databind in versions before 2.9.10, 2.8.11.5 and 2.6.7.3, where it would permit polymorphic deserialization of a malicious object using commons-configuration 1 and 2 JNDI classes. An attacker could use this flaw to execute arbitrary code."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-14892",
+              "help": {
+                "text": "Vulnerability CVE-2019-14892\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.6.7.3, 2.8.11.5, 2.9.10\nLink: [CVE-2019-14892](https://avd.aquasec.com/nvd/cve-2019-14892)\nA flaw was discovered in jackson-databind in versions before 2.9.10, 2.8.11.5 and 2.6.7.3, where it would permit polymorphic deserialization of a malicious object using commons-configuration 1 and 2 JNDI classes. An attacker could use this flaw to execute arbitrary code.",
+                "markdown": "**Vulnerability CVE-2019-14892**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.6.7.3, 2.8.11.5, 2.9.10|[CVE-2019-14892](https://avd.aquasec.com/nvd/cve-2019-14892)|\n\nA flaw was discovered in jackson-databind in versions before 2.9.10, 2.8.11.5 and 2.6.7.3, where it would permit polymorphic deserialization of a malicious object using commons-configuration 1 and 2 JNDI classes. An attacker could use this flaw to execute arbitrary code."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-14893",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in classes of the xalan package"
+              },
+              "fullDescription": {
+                "text": "A flaw was discovered in FasterXML jackson-databind in all versions before 2.9.10 and 2.10.0, where it would permit polymorphic deserialization of malicious objects using the xalan JNDI gadget when used in conjunction with polymorphic type handling methods such as `enableDefaultTyping()` or when @JsonTypeInfo is using `Id.CLASS` or `Id.MINIMAL_CLASS` or in any other way which ObjectMapper.readValue might instantiate objects from unsafe sources. An attacker could use this flaw to execute arbitrary code."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-14893",
+              "help": {
+                "text": "Vulnerability CVE-2019-14893\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10\nLink: [CVE-2019-14893](https://avd.aquasec.com/nvd/cve-2019-14893)\nA flaw was discovered in FasterXML jackson-databind in all versions before 2.9.10 and 2.10.0, where it would permit polymorphic deserialization of malicious objects using the xalan JNDI gadget when used in conjunction with polymorphic type handling methods such as `enableDefaultTyping()` or when @JsonTypeInfo is using `Id.CLASS` or `Id.MINIMAL_CLASS` or in any other way which ObjectMapper.readValue might instantiate objects from unsafe sources. An attacker could use this flaw to execute arbitrary code.",
+                "markdown": "**Vulnerability CVE-2019-14893**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10|[CVE-2019-14893](https://avd.aquasec.com/nvd/cve-2019-14893)|\n\nA flaw was discovered in FasterXML jackson-databind in all versions before 2.9.10 and 2.10.0, where it would permit polymorphic deserialization of malicious objects using the xalan JNDI gadget when used in conjunction with polymorphic type handling methods such as `enableDefaultTyping()` or when @JsonTypeInfo is using `Id.CLASS` or `Id.MINIMAL_CLASS` or in any other way which ObjectMapper.readValue might instantiate objects from unsafe sources. An attacker could use this flaw to execute arbitrary code."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.0",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-10650",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "A deserialization flaw was discovered in jackson-databind through 2.9. ..."
+              },
+              "fullDescription": {
+                "text": "A deserialization flaw was discovered in jackson-databind through 2.9.10.4. It could allow an unauthenticated user to perform code execution via ignite-jta or quartz-core: org.apache.ignite.cache.jta.jndi.CacheJndiTmLookup, org.apache.ignite.cache.jta.jndi.CacheJndiTmFactory, and org.quartz.utils.JNDIConnectionProvider."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-10650",
+              "help": {
+                "text": "Vulnerability CVE-2020-10650\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10650](https://avd.aquasec.com/nvd/cve-2020-10650)\nA deserialization flaw was discovered in jackson-databind through 2.9.10.4. It could allow an unauthenticated user to perform code execution via ignite-jta or quartz-core: org.apache.ignite.cache.jta.jndi.CacheJndiTmLookup, org.apache.ignite.cache.jta.jndi.CacheJndiTmFactory, and org.quartz.utils.JNDIConnectionProvider.",
+                "markdown": "**Vulnerability CVE-2020-10650**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-10650](https://avd.aquasec.com/nvd/cve-2020-10650)|\n\nA deserialization flaw was discovered in jackson-databind through 2.9.10.4. It could allow an unauthenticated user to perform code execution via ignite-jta or quartz-core: org.apache.ignite.cache.jta.jndi.CacheJndiTmLookup, org.apache.ignite.cache.jta.jndi.CacheJndiTmFactory, and org.quartz.utils.JNDIConnectionProvider."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-10672",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.aries.transaction.jms.internal.XaPooledConnectionFactory (aka aries.transaction.jms)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-10672",
+              "help": {
+                "text": "Vulnerability CVE-2020-10672\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10672](https://avd.aquasec.com/nvd/cve-2020-10672)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.aries.transaction.jms.internal.XaPooledConnectionFactory (aka aries.transaction.jms).",
+                "markdown": "**Vulnerability CVE-2020-10672**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-10672](https://avd.aquasec.com/nvd/cve-2020-10672)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.aries.transaction.jms.internal.XaPooledConnectionFactory (aka aries.transaction.jms)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-10673",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-10673",
+              "help": {
+                "text": "Vulnerability CVE-2020-10673\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4, 2.6.7.4\nLink: [CVE-2020-10673](https://avd.aquasec.com/nvd/cve-2020-10673)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus).",
+                "markdown": "**Vulnerability CVE-2020-10673**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4, 2.6.7.4|[CVE-2020-10673](https://avd.aquasec.com/nvd/cve-2020-10673)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-10968",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.aoju.bus.proxy.provider.*.RmiProvider"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.aoju.bus.proxy.provider.remoting.RmiProvider (aka bus-proxy)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-10968",
+              "help": {
+                "text": "Vulnerability CVE-2020-10968\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10968](https://avd.aquasec.com/nvd/cve-2020-10968)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.aoju.bus.proxy.provider.remoting.RmiProvider (aka bus-proxy).",
+                "markdown": "**Vulnerability CVE-2020-10968**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-10968](https://avd.aquasec.com/nvd/cve-2020-10968)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.aoju.bus.proxy.provider.remoting.RmiProvider (aka bus-proxy)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-10969",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in javax.swing.JEditorPane"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to javax.swing.JEditorPane."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-10969",
+              "help": {
+                "text": "Vulnerability CVE-2020-10969\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10969](https://avd.aquasec.com/nvd/cve-2020-10969)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to javax.swing.JEditorPane.",
+                "markdown": "**Vulnerability CVE-2020-10969**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-10969](https://avd.aquasec.com/nvd/cve-2020-10969)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to javax.swing.JEditorPane."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-11111",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.apache.activemq.jms.pool.XaPooledConnectionFactory"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.activemq.* (aka activemq-jms, activemq-core, activemq-pool, and activemq-pool-jms)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-11111",
+              "help": {
+                "text": "Vulnerability CVE-2020-11111\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11111](https://avd.aquasec.com/nvd/cve-2020-11111)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.activemq.* (aka activemq-jms, activemq-core, activemq-pool, and activemq-pool-jms).",
+                "markdown": "**Vulnerability CVE-2020-11111**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-11111](https://avd.aquasec.com/nvd/cve-2020-11111)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.activemq.* (aka activemq-jms, activemq-core, activemq-pool, and activemq-pool-jms)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-11112",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.apache.commons.proxy.provider.remoting.RmiProvider"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.proxy.provider.remoting.RmiProvider (aka apache/commons-proxy)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-11112",
+              "help": {
+                "text": "Vulnerability CVE-2020-11112\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11112](https://avd.aquasec.com/nvd/cve-2020-11112)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.proxy.provider.remoting.RmiProvider (aka apache/commons-proxy).",
+                "markdown": "**Vulnerability CVE-2020-11112**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-11112](https://avd.aquasec.com/nvd/cve-2020-11112)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.proxy.provider.remoting.RmiProvider (aka apache/commons-proxy)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-11113",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.apache.openjpa.ee.WASRegistryManagedRuntime"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-11113",
+              "help": {
+                "text": "Vulnerability CVE-2020-11113\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11113](https://avd.aquasec.com/nvd/cve-2020-11113)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa).",
+                "markdown": "**Vulnerability CVE-2020-11113**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-11113](https://avd.aquasec.com/nvd/cve-2020-11113)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-11619",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in org.springframework:spring-aop"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.springframework.aop.config.MethodLocatingFactoryBean (aka spring-aop)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-11619",
+              "help": {
+                "text": "Vulnerability CVE-2020-11619\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11619](https://avd.aquasec.com/nvd/cve-2020-11619)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.springframework.aop.config.MethodLocatingFactoryBean (aka spring-aop).",
+                "markdown": "**Vulnerability CVE-2020-11619**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-11619](https://avd.aquasec.com/nvd/cve-2020-11619)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.springframework.aop.config.MethodLocatingFactoryBean (aka spring-aop)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-11620",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in commons-jelly:commons-jelly"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.jelly.impl.Embedded (aka commons-jelly)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-11620",
+              "help": {
+                "text": "Vulnerability CVE-2020-11620\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11620](https://avd.aquasec.com/nvd/cve-2020-11620)\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.jelly.impl.Embedded (aka commons-jelly).",
+                "markdown": "**Vulnerability CVE-2020-11620**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.4|[CVE-2020-11620](https://avd.aquasec.com/nvd/cve-2020-11620)|\n\nFasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.jelly.impl.Embedded (aka commons-jelly)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-14060",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: serialization in oadd.org.apache.xalan.lib.sql.JNDIConnectionPool"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.xalan.lib.sql.JNDIConnectionPool (aka apache/drill)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-14060",
+              "help": {
+                "text": "Vulnerability CVE-2020-14060\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14060](https://avd.aquasec.com/nvd/cve-2020-14060)\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.xalan.lib.sql.JNDIConnectionPool (aka apache/drill).",
+                "markdown": "**Vulnerability CVE-2020-14060**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.5|[CVE-2020-14060](https://avd.aquasec.com/nvd/cve-2020-14060)|\n\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.xalan.lib.sql.JNDIConnectionPool (aka apache/drill)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-14061",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: serialization in weblogic/oracle-aqjms"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oracle.jms.AQjmsQueueConnectionFactory, oracle.jms.AQjmsXATopicConnectionFactory, oracle.jms.AQjmsTopicConnectionFactory, oracle.jms.AQjmsXAQueueConnectionFactory, and oracle.jms.AQjmsXAConnectionFactory (aka weblogic/oracle-aqjms)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-14061",
+              "help": {
+                "text": "Vulnerability CVE-2020-14061\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14061](https://avd.aquasec.com/nvd/cve-2020-14061)\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oracle.jms.AQjmsQueueConnectionFactory, oracle.jms.AQjmsXATopicConnectionFactory, oracle.jms.AQjmsTopicConnectionFactory, oracle.jms.AQjmsXAQueueConnectionFactory, and oracle.jms.AQjmsXAConnectionFactory (aka weblogic/oracle-aqjms).",
+                "markdown": "**Vulnerability CVE-2020-14061**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.5|[CVE-2020-14061](https://avd.aquasec.com/nvd/cve-2020-14061)|\n\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oracle.jms.AQjmsQueueConnectionFactory, oracle.jms.AQjmsXATopicConnectionFactory, oracle.jms.AQjmsTopicConnectionFactory, oracle.jms.AQjmsXAQueueConnectionFactory, and oracle.jms.AQjmsXAConnectionFactory (aka weblogic/oracle-aqjms)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-14062",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: serialization in com.sun.org.apache.xalan.internal.lib.sql.JNDIConnectionPool"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to com.sun.org.apache.xalan.internal.lib.sql.JNDIConnectionPool (aka xalan2)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-14062",
+              "help": {
+                "text": "Vulnerability CVE-2020-14062\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14062](https://avd.aquasec.com/nvd/cve-2020-14062)\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to com.sun.org.apache.xalan.internal.lib.sql.JNDIConnectionPool (aka xalan2).",
+                "markdown": "**Vulnerability CVE-2020-14062**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.5|[CVE-2020-14062](https://avd.aquasec.com/nvd/cve-2020-14062)|\n\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to com.sun.org.apache.xalan.internal.lib.sql.JNDIConnectionPool (aka xalan2)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-14195",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: serialization in org.jsecurity.realm.jndi.JndiRealmFactory"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to org.jsecurity.realm.jndi.JndiRealmFactory (aka org.jsecurity)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-14195",
+              "help": {
+                "text": "Vulnerability CVE-2020-14195\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14195](https://avd.aquasec.com/nvd/cve-2020-14195)\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to org.jsecurity.realm.jndi.JndiRealmFactory (aka org.jsecurity).",
+                "markdown": "**Vulnerability CVE-2020-14195**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.5|[CVE-2020-14195](https://avd.aquasec.com/nvd/cve-2020-14195)|\n\nFasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to org.jsecurity.realm.jndi.JndiRealmFactory (aka org.jsecurity)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-24616",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-24616",
+              "help": {
+                "text": "Vulnerability CVE-2020-24616\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.6\nLink: [CVE-2020-24616](https://avd.aquasec.com/nvd/cve-2020-24616)\nFasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP).",
+                "markdown": "**Vulnerability CVE-2020-24616**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.6|[CVE-2020-24616](https://avd.aquasec.com/nvd/cve-2020-24616)|\n\nFasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-24750",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: Serialization gadgets in com.pastdev.httpcomponents.configuration.JndiConfiguration"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to com.pastdev.httpcomponents.configuration.JndiConfiguration."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-24750",
+              "help": {
+                "text": "Vulnerability CVE-2020-24750\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.6.7.5, 2.9.10.6\nLink: [CVE-2020-24750](https://avd.aquasec.com/nvd/cve-2020-24750)\nFasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to com.pastdev.httpcomponents.configuration.JndiConfiguration.",
+                "markdown": "**Vulnerability CVE-2020-24750**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.6.7.5, 2.9.10.6|[CVE-2020-24750](https://avd.aquasec.com/nvd/cve-2020-24750)|\n\nFasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to com.pastdev.httpcomponents.configuration.JndiConfiguration."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-25649",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)"
+              },
+              "fullDescription": {
+                "text": "A flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-25649",
+              "help": {
+                "text": "Vulnerability CVE-2020-25649\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.6.7.4, 2.9.10.7, 2.10.5.1\nLink: [CVE-2020-25649](https://avd.aquasec.com/nvd/cve-2020-25649)\nA flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity.",
+                "markdown": "**Vulnerability CVE-2020-25649**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.6.7.4, 2.9.10.7, 2.10.5.1|[CVE-2020-25649](https://avd.aquasec.com/nvd/cve-2020-25649)|\n\nA flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-35490",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-35490",
+              "help": {
+                "text": "Vulnerability CVE-2020-35490\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35490](https://avd.aquasec.com/nvd/cve-2020-35490)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-35490**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-35490](https://avd.aquasec.com/nvd/cve-2020-35490)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-35491",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-35491",
+              "help": {
+                "text": "Vulnerability CVE-2020-35491\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35491](https://avd.aquasec.com/nvd/cve-2020-35491)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-35491**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-35491](https://avd.aquasec.com/nvd/cve-2020-35491)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-35728",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.oracle.wls.shaded.org.apache.xalan.lib.sql.JNDIConnectionPool"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.oracle.wls.shaded.org.apache.xalan.lib.sql.JNDIConnectionPool (aka embedded Xalan in org.glassfish.web/javax.servlet.jsp.jstl)."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-35728",
+              "help": {
+                "text": "Vulnerability CVE-2020-35728\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35728](https://avd.aquasec.com/nvd/cve-2020-35728)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.oracle.wls.shaded.org.apache.xalan.lib.sql.JNDIConnectionPool (aka embedded Xalan in org.glassfish.web/javax.servlet.jsp.jstl).",
+                "markdown": "**Vulnerability CVE-2020-35728**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-35728](https://avd.aquasec.com/nvd/cve-2020-35728)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.oracle.wls.shaded.org.apache.xalan.lib.sql.JNDIConnectionPool (aka embedded Xalan in org.glassfish.web/javax.servlet.jsp.jstl)."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36179",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36179",
+              "help": {
+                "text": "Vulnerability CVE-2020-36179\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36179](https://avd.aquasec.com/nvd/cve-2020-36179)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS.",
+                "markdown": "**Vulnerability CVE-2020-36179**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36179](https://avd.aquasec.com/nvd/cve-2020-36179)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36180",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36180",
+              "help": {
+                "text": "Vulnerability CVE-2020-36180\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36180](https://avd.aquasec.com/nvd/cve-2020-36180)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS.",
+                "markdown": "**Vulnerability CVE-2020-36180**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36180](https://avd.aquasec.com/nvd/cve-2020-36180)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36181",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36181",
+              "help": {
+                "text": "Vulnerability CVE-2020-36181\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36181](https://avd.aquasec.com/nvd/cve-2020-36181)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS.",
+                "markdown": "**Vulnerability CVE-2020-36181**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36181](https://avd.aquasec.com/nvd/cve-2020-36181)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36182",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36182",
+              "help": {
+                "text": "Vulnerability CVE-2020-36182\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36182](https://avd.aquasec.com/nvd/cve-2020-36182)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS.",
+                "markdown": "**Vulnerability CVE-2020-36182**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36182](https://avd.aquasec.com/nvd/cve-2020-36182)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36183",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36183",
+              "help": {
+                "text": "Vulnerability CVE-2020-36183\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36183](https://avd.aquasec.com/nvd/cve-2020-36183)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool.",
+                "markdown": "**Vulnerability CVE-2020-36183**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36183](https://avd.aquasec.com/nvd/cve-2020-36183)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36184",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36184",
+              "help": {
+                "text": "Vulnerability CVE-2020-36184\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36184](https://avd.aquasec.com/nvd/cve-2020-36184)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-36184**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-36184](https://avd.aquasec.com/nvd/cve-2020-36184)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36185",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36185",
+              "help": {
+                "text": "Vulnerability CVE-2020-36185\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36185](https://avd.aquasec.com/nvd/cve-2020-36185)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-36185**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-36185](https://avd.aquasec.com/nvd/cve-2020-36185)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36186",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36186",
+              "help": {
+                "text": "Vulnerability CVE-2020-36186\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36186](https://avd.aquasec.com/nvd/cve-2020-36186)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-36186**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-36186](https://avd.aquasec.com/nvd/cve-2020-36186)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36187",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36187",
+              "help": {
+                "text": "Vulnerability CVE-2020-36187\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36187](https://avd.aquasec.com/nvd/cve-2020-36187)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource.",
+                "markdown": "**Vulnerability CVE-2020-36187**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8|[CVE-2020-36187](https://avd.aquasec.com/nvd/cve-2020-36187)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36188",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36188",
+              "help": {
+                "text": "Vulnerability CVE-2020-36188\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36188](https://avd.aquasec.com/nvd/cve-2020-36188)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource.",
+                "markdown": "**Vulnerability CVE-2020-36188**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36188](https://avd.aquasec.com/nvd/cve-2020-36188)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36189",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.DriverManagerConnectionSource"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.DriverManagerConnectionSource."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36189",
+              "help": {
+                "text": "Vulnerability CVE-2020-36189\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36189](https://avd.aquasec.com/nvd/cve-2020-36189)\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.DriverManagerConnectionSource.",
+                "markdown": "**Vulnerability CVE-2020-36189**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.8, 2.6.7.5|[CVE-2020-36189](https://avd.aquasec.com/nvd/cve-2020-36189)|\n\nFasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.DriverManagerConnectionSource."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2020-36518",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: denial of service via a large depth of nested objects"
+              },
+              "fullDescription": {
+                "text": "jackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2020-36518",
+              "help": {
+                "text": "Vulnerability CVE-2020-36518\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.13.2.1, 2.12.6.1\nLink: [CVE-2020-36518](https://avd.aquasec.com/nvd/cve-2020-36518)\njackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects.",
+                "markdown": "**Vulnerability CVE-2020-36518**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.13.2.1, 2.12.6.1|[CVE-2020-36518](https://avd.aquasec.com/nvd/cve-2020-36518)|\n\njackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2021-20190",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: mishandles the interaction between serialization gadgets and typing, related to javax.swing"
+              },
+              "fullDescription": {
+                "text": "A flaw was found in jackson-databind before 2.9.10.7. FasterXML mishandles the interaction between serialization gadgets and typing. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2021-20190",
+              "help": {
+                "text": "Vulnerability CVE-2021-20190\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.10.7, 2.6.7.5\nLink: [CVE-2021-20190](https://avd.aquasec.com/nvd/cve-2021-20190)\nA flaw was found in jackson-databind before 2.9.10.7. FasterXML mishandles the interaction between serialization gadgets and typing. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+                "markdown": "**Vulnerability CVE-2021-20190**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.9.10.7, 2.6.7.5|[CVE-2021-20190](https://avd.aquasec.com/nvd/cve-2021-20190)|\n\nA flaw was found in jackson-databind before 2.9.10.7. FasterXML mishandles the interaction between serialization gadgets and typing. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.1",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-42003",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS"
+              },
+              "fullDescription": {
+                "text": "In FasterXML jackson-databind before versions 2.13.4.1 and 2.12.17.1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-42003",
+              "help": {
+                "text": "Vulnerability CVE-2022-42003\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.12.7.1, 2.13.4.2\nLink: [CVE-2022-42003](https://avd.aquasec.com/nvd/cve-2022-42003)\nIn FasterXML jackson-databind before versions 2.13.4.1 and 2.12.17.1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled.",
+                "markdown": "**Vulnerability CVE-2022-42003**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.12.7.1, 2.13.4.2|[CVE-2022-42003](https://avd.aquasec.com/nvd/cve-2022-42003)|\n\nIn FasterXML jackson-databind before versions 2.13.4.1 and 2.12.17.1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-42004",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: use of deeply nested arrays"
+              },
+              "fullDescription": {
+                "text": "In FasterXML jackson-databind before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-42004",
+              "help": {
+                "text": "Vulnerability CVE-2022-42004\nSeverity: HIGH\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.12.7.1, 2.13.4\nLink: [CVE-2022-42004](https://avd.aquasec.com/nvd/cve-2022-42004)\nIn FasterXML jackson-databind before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization.",
+                "markdown": "**Vulnerability CVE-2022-42004**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|com.fasterxml.jackson.core:jackson-databind|2.12.7.1, 2.13.4|[CVE-2022-42004](https://avd.aquasec.com/nvd/cve-2022-42004)|\n\nIn FasterXML jackson-databind before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-12384",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: failure to block the logback-core class from polymorphic deserialization leading to remote code execution"
+              },
+              "fullDescription": {
+                "text": "FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-12384",
+              "help": {
+                "text": "Vulnerability CVE-2019-12384\nSeverity: MEDIUM\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12384](https://avd.aquasec.com/nvd/cve-2019-12384)\nFasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible.",
+                "markdown": "**Vulnerability CVE-2019-12384**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|com.fasterxml.jackson.core:jackson-databind|2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3|[CVE-2019-12384](https://avd.aquasec.com/nvd/cve-2019-12384)|\n\nFasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "5.9",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "MEDIUM"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-12814",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "jackson-databind: polymorphic typing issue allows attacker to read arbitrary local files on the server via crafted JSON message."
+              },
+              "fullDescription": {
+                "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x through 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has JDOM 1.x or 2.x jar in the classpath, an attacker can send a specifically crafted JSON message that allows them to read arbitrary local files on the server."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-12814",
+              "help": {
+                "text": "Vulnerability CVE-2019-12814\nSeverity: MEDIUM\nPackage: com.fasterxml.jackson.core:jackson-databind\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12814](https://avd.aquasec.com/nvd/cve-2019-12814)\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x through 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has JDOM 1.x or 2.x jar in the classpath, an attacker can send a specifically crafted JSON message that allows them to read arbitrary local files on the server.",
+                "markdown": "**Vulnerability CVE-2019-12814**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|com.fasterxml.jackson.core:jackson-databind|2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3|[CVE-2019-12814](https://avd.aquasec.com/nvd/cve-2019-12814)|\n\nA Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x through 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has JDOM 1.x or 2.x jar in the classpath, an attacker can send a specifically crafted JSON message that allows them to read arbitrary local files on the server."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "5.9",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "MEDIUM"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2015-7501",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "apache-commons-collections: InvokerTransformer code execution during deserialisation"
+              },
+              "fullDescription": {
+                "text": "Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2015-7501",
+              "help": {
+                "text": "Vulnerability CVE-2015-7501\nSeverity: CRITICAL\nPackage: commons-collections:commons-collections\nFixed Version: 3.2.2\nLink: [CVE-2015-7501](https://avd.aquasec.com/nvd/cve-2015-7501)\nRed Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.",
+                "markdown": "**Vulnerability CVE-2015-7501**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|commons-collections:commons-collections|3.2.2|[CVE-2015-7501](https://avd.aquasec.com/nvd/cve-2015-7501)|\n\nRed Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2015-6420",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "Insecure Deserialization in Apache Commons Collection"
+              },
+              "fullDescription": {
+                "text": "Serialized-object interfaces in certain Cisco Collaboration and Social Media; Endpoint Clients and Client Software; Network Application, Service, and Acceleration; Network and Content Security Devices; Network Management and Provisioning; Routing and Switching - Enterprise and Service Provider; Unified Computing; Voice and Unified Communications Devices; Video, Streaming, TelePresence, and Transcoding Devices; Wireless; and Cisco Hosted Services products allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2015-6420",
+              "help": {
+                "text": "Vulnerability CVE-2015-6420\nSeverity: HIGH\nPackage: commons-collections:commons-collections\nFixed Version: 3.2.2\nLink: [CVE-2015-6420](https://avd.aquasec.com/nvd/cve-2015-6420)\nSerialized-object interfaces in certain Cisco Collaboration and Social Media; Endpoint Clients and Client Software; Network Application, Service, and Acceleration; Network and Content Security Devices; Network Management and Provisioning; Routing and Switching - Enterprise and Service Provider; Unified Computing; Voice and Unified Communications Devices; Video, Streaming, TelePresence, and Transcoding Devices; Wireless; and Cisco Hosted Services products allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.",
+                "markdown": "**Vulnerability CVE-2015-6420**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|commons-collections:commons-collections|3.2.2|[CVE-2015-6420](https://avd.aquasec.com/nvd/cve-2015-6420)|\n\nSerialized-object interfaces in certain Cisco Collaboration and Social Media; Endpoint Clients and Client Software; Network Application, Service, and Acceleration; Network and Content Security Devices; Network Management and Provisioning; Routing and Switching - Enterprise and Service Provider; Unified Computing; Voice and Unified Communications Devices; Video, Streaming, TelePresence, and Transcoding Devices; Wireless; and Cisco Hosted Services products allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.0",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2019-17571",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "log4j: deserialization of untrusted data in SocketServer"
+              },
+              "fullDescription": {
+                "text": "Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions up to 1.2 up to 1.2.17."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2019-17571",
+              "help": {
+                "text": "Vulnerability CVE-2019-17571\nSeverity: CRITICAL\nPackage: log4j:log4j\nFixed Version: \nLink: [CVE-2019-17571](https://avd.aquasec.com/nvd/cve-2019-17571)\nIncluded in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions up to 1.2 up to 1.2.17.",
+                "markdown": "**Vulnerability CVE-2019-17571**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|log4j:log4j||[CVE-2019-17571](https://avd.aquasec.com/nvd/cve-2019-17571)|\n\nIncluded in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions up to 1.2 up to 1.2.17."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-23305",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "log4j: SQL injection in Log4j 1.x when application is configured to use JDBCAppender"
+              },
+              "fullDescription": {
+                "text": "By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configuration parameter where the values to be inserted are converters from PatternLayout. The message converter, %m, is likely to always be included. This allows attackers to manipulate the SQL by entering crafted strings into input fields or headers of an application that are logged allowing unintended SQL queries to be executed. Note this issue only affects Log4j 1.x when specifically configured to use the JDBCAppender, which is not the default. Beginning in version 2.0-beta8, the JDBCAppender was re-introduced with proper support for parameterized SQL queries and further customization over the columns written to in logs. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-23305",
+              "help": {
+                "text": "Vulnerability CVE-2022-23305\nSeverity: CRITICAL\nPackage: log4j:log4j\nFixed Version: \nLink: [CVE-2022-23305](https://avd.aquasec.com/nvd/cve-2022-23305)\nBy design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configuration parameter where the values to be inserted are converters from PatternLayout. The message converter, %m, is likely to always be included. This allows attackers to manipulate the SQL by entering crafted strings into input fields or headers of an application that are logged allowing unintended SQL queries to be executed. Note this issue only affects Log4j 1.x when specifically configured to use the JDBCAppender, which is not the default. Beginning in version 2.0-beta8, the JDBCAppender was re-introduced with proper support for parameterized SQL queries and further customization over the columns written to in logs. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.",
+                "markdown": "**Vulnerability CVE-2022-23305**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|log4j:log4j||[CVE-2022-23305](https://avd.aquasec.com/nvd/cve-2022-23305)|\n\nBy design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configuration parameter where the values to be inserted are converters from PatternLayout. The message converter, %m, is likely to always be included. This allows attackers to manipulate the SQL by entering crafted strings into input fields or headers of an application that are logged allowing unintended SQL queries to be executed. Note this issue only affects Log4j 1.x when specifically configured to use the JDBCAppender, which is not the default. Beginning in version 2.0-beta8, the JDBCAppender was re-introduced with proper support for parameterized SQL queries and further customization over the columns written to in logs. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-23307",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "log4j: Unsafe deserialization flaw in Chainsaw log viewer"
+              },
+              "fullDescription": {
+                "text": "CVE-2020-9493 identified a deserialization issue that was present in Apache Chainsaw. Prior to Chainsaw V2.0 Chainsaw was a component of Apache Log4j 1.2.x where the same issue exists."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-23307",
+              "help": {
+                "text": "Vulnerability CVE-2022-23307\nSeverity: CRITICAL\nPackage: log4j:log4j\nFixed Version: \nLink: [CVE-2022-23307](https://avd.aquasec.com/nvd/cve-2022-23307)\nCVE-2020-9493 identified a deserialization issue that was present in Apache Chainsaw. Prior to Chainsaw V2.0 Chainsaw was a component of Apache Log4j 1.2.x where the same issue exists.",
+                "markdown": "**Vulnerability CVE-2022-23307**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|CRITICAL|log4j:log4j||[CVE-2022-23307](https://avd.aquasec.com/nvd/cve-2022-23307)|\n\nCVE-2020-9493 identified a deserialization issue that was present in Apache Chainsaw. Prior to Chainsaw V2.0 Chainsaw was a component of Apache Log4j 1.2.x where the same issue exists."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "9.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "CRITICAL"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2021-4104",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "log4j: Remote code execution in Log4j 1.x when application is configured to use JMSAppender"
+              },
+              "fullDescription": {
+                "text": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2021-4104",
+              "help": {
+                "text": "Vulnerability CVE-2021-4104\nSeverity: HIGH\nPackage: log4j:log4j\nFixed Version: \nLink: [CVE-2021-4104](https://avd.aquasec.com/nvd/cve-2021-4104)\nJMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.",
+                "markdown": "**Vulnerability CVE-2021-4104**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|log4j:log4j||[CVE-2021-4104](https://avd.aquasec.com/nvd/cve-2021-4104)|\n\nJMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-23302",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "log4j: Remote code execution in Log4j 1.x when application is configured to use JMSSink"
+              },
+              "fullDescription": {
+                "text": "JMSSink in all versions of Log4j 1.x is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration or if the configuration references an LDAP service the attacker has access to. The attacker can provide a TopicConnectionFactoryBindingName configuration causing JMSSink to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-4104. Note this issue only affects Log4j 1.x when specifically configured to use JMSSink, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-23302",
+              "help": {
+                "text": "Vulnerability CVE-2022-23302\nSeverity: HIGH\nPackage: log4j:log4j\nFixed Version: \nLink: [CVE-2022-23302](https://avd.aquasec.com/nvd/cve-2022-23302)\nJMSSink in all versions of Log4j 1.x is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration or if the configuration references an LDAP service the attacker has access to. The attacker can provide a TopicConnectionFactoryBindingName configuration causing JMSSink to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-4104. Note this issue only affects Log4j 1.x when specifically configured to use JMSSink, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.",
+                "markdown": "**Vulnerability CVE-2022-23302**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|log4j:log4j||[CVE-2022-23302](https://avd.aquasec.com/nvd/cve-2022-23302)|\n\nJMSSink in all versions of Log4j 1.x is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration or if the configuration references an LDAP service the attacker has access to. The attacker can provide a TopicConnectionFactoryBindingName configuration causing JMSSink to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-4104. Note this issue only affects Log4j 1.x when specifically configured to use JMSSink, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.8",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2022-45688",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "json stack overflow vulnerability"
+              },
+              "fullDescription": {
+                "text": "A stack overflow in the XML.toJSONObject component of hutool-json v5.8.10 allows attackers to cause a Denial of Service (DoS) via crafted JSON or XML data."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2022-45688",
+              "help": {
+                "text": "Vulnerability CVE-2022-45688\nSeverity: HIGH\nPackage: org.json:json\nFixed Version: 20230227\nLink: [CVE-2022-45688](https://avd.aquasec.com/nvd/cve-2022-45688)\nA stack overflow in the XML.toJSONObject component of hutool-json v5.8.10 allows attackers to cause a Denial of Service (DoS) via crafted JSON or XML data.",
+                "markdown": "**Vulnerability CVE-2022-45688**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|org.json:json|20230227|[CVE-2022-45688](https://avd.aquasec.com/nvd/cve-2022-45688)|\n\nA stack overflow in the XML.toJSONObject component of hutool-json v5.8.10 allows attackers to cause a Denial of Service (DoS) via crafted JSON or XML data."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "7.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2023-5072",
+              "name": "LanguageSpecificPackageVulnerability",
+              "shortDescription": {
+                "text": "JSON-java: parser confusion leads to OOM"
+              },
+              "fullDescription": {
+                "text": "Denial of Service  in JSON-Java versions up to and including 20230618.  A bug in the parser means that an input string of modest size can lead to indefinite amounts of memory being used."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2023-5072",
+              "help": {
+                "text": "Vulnerability CVE-2023-5072\nSeverity: HIGH\nPackage: org.json:json\nFixed Version: 20231013\nLink: [CVE-2023-5072](https://avd.aquasec.com/nvd/cve-2023-5072)\nDenial of Service  in JSON-Java versions up to and including 20230618.  A bug in the parser means that an input string of modest size can lead to indefinite amounts of memory being used.",
+                "markdown": "**Vulnerability CVE-2023-5072**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|org.json:json|20231013|[CVE-2023-5072](https://avd.aquasec.com/nvd/cve-2023-5072)|\n\nDenial of Service  in JSON-Java versions up to and including 20230618.  A bug in the parser means that an input string of modest size can lead to indefinite amounts of memory being used."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.0",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            }
+          ],
+          "version": "0.52.2"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CVE-2019-14379",
+          "ruleIndex": 0,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14379\nSeverity: CRITICAL\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6\nLink: [CVE-2019-14379](https://avd.aquasec.com/nvd/cve-2019-14379)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-14540",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14540\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-14540](https://avd.aquasec.com/nvd/cve-2019-14540)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-16335",
+          "ruleIndex": 2,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16335\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16335](https://avd.aquasec.com/nvd/cve-2019-16335)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-16942",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16942\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16942](https://avd.aquasec.com/nvd/cve-2019-16942)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-16943",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16943\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16943](https://avd.aquasec.com/nvd/cve-2019-16943)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-17267",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-17267\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5\nLink: [CVE-2019-17267](https://avd.aquasec.com/nvd/cve-2019-17267)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-17531",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-17531\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-17531](https://avd.aquasec.com/nvd/cve-2019-17531)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-20330",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-20330\nSeverity: CRITICAL\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2\nLink: [CVE-2019-20330](https://avd.aquasec.com/nvd/cve-2019-20330)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-8840",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-8840\nSeverity: CRITICAL\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3\nLink: [CVE-2020-8840](https://avd.aquasec.com/nvd/cve-2020-8840)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-9546",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9546\nSeverity: CRITICAL\nFixed Version: 2.9.10.4\nLink: [CVE-2020-9546](https://avd.aquasec.com/nvd/cve-2020-9546)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-9547",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9547\nSeverity: CRITICAL\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9547](https://avd.aquasec.com/nvd/cve-2020-9547)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-9548",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9548\nSeverity: CRITICAL\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9548](https://avd.aquasec.com/nvd/cve-2020-9548)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-12086",
+          "ruleIndex": 12,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12086\nSeverity: HIGH\nFixed Version: 2.9.9, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12086](https://avd.aquasec.com/nvd/cve-2019-12086)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-14439",
+          "ruleIndex": 13,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14439\nSeverity: HIGH\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-14439](https://avd.aquasec.com/nvd/cve-2019-14439)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-14892",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14892\nSeverity: HIGH\nFixed Version: 2.6.7.3, 2.8.11.5, 2.9.10\nLink: [CVE-2019-14892](https://avd.aquasec.com/nvd/cve-2019-14892)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-14893",
+          "ruleIndex": 15,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14893\nSeverity: HIGH\nFixed Version: 2.9.10\nLink: [CVE-2019-14893](https://avd.aquasec.com/nvd/cve-2019-14893)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-10650",
+          "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10650\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10650](https://avd.aquasec.com/nvd/cve-2020-10650)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-10672",
+          "ruleIndex": 17,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10672\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10672](https://avd.aquasec.com/nvd/cve-2020-10672)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-10673",
+          "ruleIndex": 18,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10673\nSeverity: HIGH\nFixed Version: 2.9.10.4, 2.6.7.4\nLink: [CVE-2020-10673](https://avd.aquasec.com/nvd/cve-2020-10673)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-10968",
+          "ruleIndex": 19,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10968\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10968](https://avd.aquasec.com/nvd/cve-2020-10968)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-10969",
+          "ruleIndex": 20,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10969\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10969](https://avd.aquasec.com/nvd/cve-2020-10969)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-11111",
+          "ruleIndex": 21,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11111\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11111](https://avd.aquasec.com/nvd/cve-2020-11111)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-11112",
+          "ruleIndex": 22,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11112\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11112](https://avd.aquasec.com/nvd/cve-2020-11112)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-11113",
+          "ruleIndex": 23,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11113\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11113](https://avd.aquasec.com/nvd/cve-2020-11113)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-11619",
+          "ruleIndex": 24,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11619\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11619](https://avd.aquasec.com/nvd/cve-2020-11619)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-11620",
+          "ruleIndex": 25,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11620\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11620](https://avd.aquasec.com/nvd/cve-2020-11620)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-14060",
+          "ruleIndex": 26,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14060\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14060](https://avd.aquasec.com/nvd/cve-2020-14060)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-14061",
+          "ruleIndex": 27,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14061\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14061](https://avd.aquasec.com/nvd/cve-2020-14061)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-14062",
+          "ruleIndex": 28,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14062\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14062](https://avd.aquasec.com/nvd/cve-2020-14062)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-14195",
+          "ruleIndex": 29,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14195\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14195](https://avd.aquasec.com/nvd/cve-2020-14195)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-24616",
+          "ruleIndex": 30,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-24616\nSeverity: HIGH\nFixed Version: 2.9.10.6\nLink: [CVE-2020-24616](https://avd.aquasec.com/nvd/cve-2020-24616)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-24750",
+          "ruleIndex": 31,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-24750\nSeverity: HIGH\nFixed Version: 2.6.7.5, 2.9.10.6\nLink: [CVE-2020-24750](https://avd.aquasec.com/nvd/cve-2020-24750)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-25649",
+          "ruleIndex": 32,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-25649\nSeverity: HIGH\nFixed Version: 2.6.7.4, 2.9.10.7, 2.10.5.1\nLink: [CVE-2020-25649](https://avd.aquasec.com/nvd/cve-2020-25649)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-35490",
+          "ruleIndex": 33,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35490\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35490](https://avd.aquasec.com/nvd/cve-2020-35490)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-35491",
+          "ruleIndex": 34,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35491\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35491](https://avd.aquasec.com/nvd/cve-2020-35491)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-35728",
+          "ruleIndex": 35,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35728\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35728](https://avd.aquasec.com/nvd/cve-2020-35728)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36179",
+          "ruleIndex": 36,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36179\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36179](https://avd.aquasec.com/nvd/cve-2020-36179)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36180",
+          "ruleIndex": 37,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36180\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36180](https://avd.aquasec.com/nvd/cve-2020-36180)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36181",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36181\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36181](https://avd.aquasec.com/nvd/cve-2020-36181)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36182",
+          "ruleIndex": 39,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36182\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36182](https://avd.aquasec.com/nvd/cve-2020-36182)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36183",
+          "ruleIndex": 40,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36183\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36183](https://avd.aquasec.com/nvd/cve-2020-36183)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36184",
+          "ruleIndex": 41,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36184\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36184](https://avd.aquasec.com/nvd/cve-2020-36184)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36185",
+          "ruleIndex": 42,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36185\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36185](https://avd.aquasec.com/nvd/cve-2020-36185)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36186",
+          "ruleIndex": 43,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36186\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36186](https://avd.aquasec.com/nvd/cve-2020-36186)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36187",
+          "ruleIndex": 44,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36187\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36187](https://avd.aquasec.com/nvd/cve-2020-36187)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36188",
+          "ruleIndex": 45,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36188\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36188](https://avd.aquasec.com/nvd/cve-2020-36188)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36189",
+          "ruleIndex": 46,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36189\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36189](https://avd.aquasec.com/nvd/cve-2020-36189)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2020-36518",
+          "ruleIndex": 47,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36518\nSeverity: HIGH\nFixed Version: 2.13.2.1, 2.12.6.1\nLink: [CVE-2020-36518](https://avd.aquasec.com/nvd/cve-2020-36518)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2021-20190",
+          "ruleIndex": 48,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2021-20190\nSeverity: HIGH\nFixed Version: 2.9.10.7, 2.6.7.5\nLink: [CVE-2021-20190](https://avd.aquasec.com/nvd/cve-2021-20190)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-42003",
+          "ruleIndex": 49,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2022-42003\nSeverity: HIGH\nFixed Version: 2.12.7.1, 2.13.4.2\nLink: [CVE-2022-42003](https://avd.aquasec.com/nvd/cve-2022-42003)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-42004",
+          "ruleIndex": 50,
+          "level": "error",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2022-42004\nSeverity: HIGH\nFixed Version: 2.12.7.1, 2.13.4\nLink: [CVE-2022-42004](https://avd.aquasec.com/nvd/cve-2022-42004)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-12384",
+          "ruleIndex": 51,
+          "level": "warning",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12384\nSeverity: MEDIUM\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12384](https://avd.aquasec.com/nvd/cve-2019-12384)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-12814",
+          "ruleIndex": 52,
+          "level": "warning",
+          "message": {
+            "text": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12814\nSeverity: MEDIUM\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12814](https://avd.aquasec.com/nvd/cve-2019-12814)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2015-7501",
+          "ruleIndex": 53,
+          "level": "error",
+          "message": {
+            "text": "Package: commons-collections:commons-collections\nInstalled Version: 3.2.1\nVulnerability CVE-2015-7501\nSeverity: CRITICAL\nFixed Version: 3.2.2\nLink: [CVE-2015-7501](https://avd.aquasec.com/nvd/cve-2015-7501)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 1,
+                  "endLine": 40,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: commons-collections:commons-collections@3.2.1"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2015-6420",
+          "ruleIndex": 54,
+          "level": "error",
+          "message": {
+            "text": "Package: commons-collections:commons-collections\nInstalled Version: 3.2.1\nVulnerability CVE-2015-6420\nSeverity: HIGH\nFixed Version: 3.2.2\nLink: [CVE-2015-6420](https://avd.aquasec.com/nvd/cve-2015-6420)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 1,
+                  "endLine": 40,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: commons-collections:commons-collections@3.2.1"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2019-17571",
+          "ruleIndex": 55,
+          "level": "error",
+          "message": {
+            "text": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2019-17571\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2019-17571](https://avd.aquasec.com/nvd/cve-2019-17571)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 47,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: log4j:log4j@1.2.17"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-23305",
+          "ruleIndex": 56,
+          "level": "error",
+          "message": {
+            "text": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23305\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2022-23305](https://avd.aquasec.com/nvd/cve-2022-23305)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 47,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: log4j:log4j@1.2.17"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-23307",
+          "ruleIndex": 57,
+          "level": "error",
+          "message": {
+            "text": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23307\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2022-23307](https://avd.aquasec.com/nvd/cve-2022-23307)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 47,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: log4j:log4j@1.2.17"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2021-4104",
+          "ruleIndex": 58,
+          "level": "error",
+          "message": {
+            "text": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2021-4104\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2021-4104](https://avd.aquasec.com/nvd/cve-2021-4104)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 47,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: log4j:log4j@1.2.17"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-23302",
+          "ruleIndex": 59,
+          "level": "error",
+          "message": {
+            "text": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23302\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2022-23302](https://avd.aquasec.com/nvd/cve-2022-23302)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 47,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: log4j:log4j@1.2.17"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-45688",
+          "ruleIndex": 60,
+          "level": "error",
+          "message": {
+            "text": "Package: org.json:json\nInstalled Version: 20180813\nVulnerability CVE-2022-45688\nSeverity: HIGH\nFixed Version: 20230227\nLink: [CVE-2022-45688](https://avd.aquasec.com/nvd/cve-2022-45688)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 1,
+                  "endLine": 54,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: org.json:json@20180813"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-5072",
+          "ruleIndex": 61,
+          "level": "error",
+          "message": {
+            "text": "Package: org.json:json\nInstalled Version: 20180813\nVulnerability CVE-2023-5072\nSeverity: HIGH\nFixed Version: 20231013\nLink: [CVE-2023-5072](https://avd.aquasec.com/nvd/cve-2023-5072)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 1,
+                  "endLine": 54,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "pom.xml: org.json:json@20180813"
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits",
+      "originalUriBaseIds": {
+        "ROOTPATH": {
+          "uri": "file:///home/khaled/code/simple-maven/"
+        }
+      }
+    }
+  ]
+}

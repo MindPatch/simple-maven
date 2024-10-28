@@ -1,0 +1,378 @@
+{
+  "issues": [
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/AuthorizationsController.cs",
+        "message": "[Controllers/AuthorizationsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 22,
+          "startColumn": 7,
+          "endLine": 38,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/AuthorizationsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/ImportsController.cs",
+        "message": "[Controllers/ImportsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 25,
+          "startColumn": 7,
+          "endLine": 50,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/ImportsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/PasswordResetsController.cs",
+        "message": "[Controllers/PasswordResetsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 22,
+          "startColumn": 7,
+          "endLine": 60,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/PasswordResetsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/PasswordResetsController.cs",
+        "message": "[Controllers/PasswordResetsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 62,
+          "startColumn": 7,
+          "endLine": 89,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/PasswordResetsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/ProductsController.cs",
+        "message": "[Controllers/ProductsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 31,
+          "startColumn": 7,
+          "endLine": 52,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/ProductsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/RegistrationsController.cs",
+        "message": "[Controllers/RegistrationsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+        "textRange": {
+          "startLine": 21,
+          "startColumn": 7,
+          "endLine": 49,
+          "endColumn": 7
+        }
+      },
+      "ruleId": "csharp.dotnet.security.mvc-missing-antiforgery.mvc-missing-antiforgery",
+      "title": "[Controllers/RegistrationsController.cs] CWE-352: Cross-Site Request Forgery (CSRF)",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Controllers/UsersController.cs",
+        "message": "[Controllers/UsersController.cs] CWE-918: Server-Side Request Forgery (SSRF)",
+        "textRange": {
+          "startLine": 82,
+          "startColumn": 65,
+          "endLine": 82,
+          "endColumn": 68
+        }
+      },
+      "ruleId": "csharp.dotnet-core.ssrf.httpclient-taint.httpclient-taint",
+      "title": "[Controllers/UsersController.cs] CWE-918: Server-Side Request Forgery (SSRF)",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "DVCSharp-API.postman_collection.json",
+        "message": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 45,
+          "startColumn": 23,
+          "endLine": 45,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "DVCSharp-API.postman_collection.json",
+        "message": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 70,
+          "startColumn": 23,
+          "endLine": 70,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "DVCSharp-API.postman_collection.json",
+        "message": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 104,
+          "startColumn": 23,
+          "endLine": 104,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "DVCSharp-API.postman_collection.json",
+        "message": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 136,
+          "startColumn": 23,
+          "endLine": 136,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "DVCSharp-API.postman_collection.json",
+        "message": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 461,
+          "startColumn": 14,
+          "endLine": 461,
+          "endColumn": 212
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[DVCSharp-API.postman_collection.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Dockerfile",
+        "message": "[Dockerfile] CWE-269: Improper Privilege Management",
+        "textRange": {
+          "startLine": 15,
+          "startColumn": 0,
+          "endLine": 15,
+          "endColumn": 30
+        }
+      },
+      "ruleId": "dockerfile.security.missing-user.missing-user",
+      "title": "[Dockerfile] CWE-269: Improper Privilege Management",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "Models/User.cs",
+        "message": "[Models/User.cs] CWE-798: Use of Hard-coded Credentials",
+        "textRange": {
+          "startLine": 17,
+          "startColumn": 31,
+          "endLine": 17,
+          "endColumn": 86
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-generic-secret.detected-generic-secret",
+      "title": "[Models/User.cs] CWE-798: Use of Hard-coded Credentials",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/attacks/insecure-jwt-usage.md",
+        "message": "[documentation-dvcsharp-book/attacks/insecure-jwt-usage.md] CWE-798: Use of Hard-coded Credentials",
+        "textRange": {
+          "startLine": 14,
+          "startColumn": 31,
+          "endLine": 14,
+          "endColumn": 86
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-generic-secret.detected-generic-secret",
+      "title": "[documentation-dvcsharp-book/attacks/insecure-jwt-usage.md] CWE-798: Use of Hard-coded Credentials",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/attacks/privilege-escalation.md",
+        "message": "[documentation-dvcsharp-book/attacks/privilege-escalation.md] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 20,
+          "startColumn": 28,
+          "endLine": 20,
+          "endColumn": 225
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/attacks/privilege-escalation.md] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/attacks/sso-cookie-auth-bypass.md",
+        "message": "[documentation-dvcsharp-book/attacks/sso-cookie-auth-bypass.md] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 29,
+          "startColumn": 30,
+          "endLine": 29,
+          "endColumn": 227
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/attacks/sso-cookie-auth-bypass.md] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/attacks/ssrf.md",
+        "message": "[documentation-dvcsharp-book/attacks/ssrf.md] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 30,
+          "startColumn": 28,
+          "endLine": 30,
+          "endColumn": 225
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/attacks/ssrf.md] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/data/DVCSharp_postman_v2.json",
+        "message": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 46,
+          "startColumn": 23,
+          "endLine": 46,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/data/DVCSharp_postman_v2.json",
+        "message": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 73,
+          "startColumn": 23,
+          "endLine": 73,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/data/DVCSharp_postman_v2.json",
+        "message": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 108,
+          "startColumn": 23,
+          "endLine": 108,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    },
+    {
+      "engineId": "Semgrep OSS",
+      "primaryLocation": {
+        "filePath": "documentation-dvcsharp-book/data/DVCSharp_postman_v2.json",
+        "message": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+        "textRange": {
+          "startLine": 141,
+          "startColumn": 23,
+          "endLine": 141,
+          "endColumn": 220
+        }
+      },
+      "ruleId": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+      "title": "[documentation-dvcsharp-book/data/DVCSharp_postman_v2.json] CWE-321: Use of Hard-coded Cryptographic Key",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY"
+    }
+  ]
+}

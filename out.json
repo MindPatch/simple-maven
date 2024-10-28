@@ -1,0 +1,810 @@
+{
+    "issues": [
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-14379",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14379\nSeverity: CRITICAL\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6\nLink: [CVE-2019-14379](https://avd.aquasec.com/nvd/cve-2019-14379)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-14540",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14540\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-14540](https://avd.aquasec.com/nvd/cve-2019-14540)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-16335",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16335\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16335](https://avd.aquasec.com/nvd/cve-2019-16335)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-16942",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16942\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16942](https://avd.aquasec.com/nvd/cve-2019-16942)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-16943",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-16943\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-16943](https://avd.aquasec.com/nvd/cve-2019-16943)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-17267",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-17267\nSeverity: CRITICAL\nFixed Version: 2.9.10, 2.8.11.5\nLink: [CVE-2019-17267](https://avd.aquasec.com/nvd/cve-2019-17267)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-17531",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-17531\nSeverity: CRITICAL\nFixed Version: 2.9.10.1, 2.8.11.5, 2.6.7.3\nLink: [CVE-2019-17531](https://avd.aquasec.com/nvd/cve-2019-17531)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-20330",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-20330\nSeverity: CRITICAL\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2\nLink: [CVE-2019-20330](https://avd.aquasec.com/nvd/cve-2019-20330)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-8840",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-8840\nSeverity: CRITICAL\nFixed Version: 2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3\nLink: [CVE-2020-8840](https://avd.aquasec.com/nvd/cve-2020-8840)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-9546",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9546\nSeverity: CRITICAL\nFixed Version: 2.9.10.4\nLink: [CVE-2020-9546](https://avd.aquasec.com/nvd/cve-2020-9546)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-9547",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9547\nSeverity: CRITICAL\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9547](https://avd.aquasec.com/nvd/cve-2020-9547)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-9548",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-9548\nSeverity: CRITICAL\nFixed Version: 2.9.10.4, 2.8.11.6, 2.7.9.7\nLink: [CVE-2020-9548](https://avd.aquasec.com/nvd/cve-2020-9548)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-12086",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12086\nSeverity: HIGH\nFixed Version: 2.9.9, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12086](https://avd.aquasec.com/nvd/cve-2019-12086)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-14439",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14439\nSeverity: HIGH\nFixed Version: 2.9.9.2, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-14439](https://avd.aquasec.com/nvd/cve-2019-14439)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-14892",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14892\nSeverity: HIGH\nFixed Version: 2.6.7.3, 2.8.11.5, 2.9.10\nLink: [CVE-2019-14892](https://avd.aquasec.com/nvd/cve-2019-14892)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-14893",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-14893\nSeverity: HIGH\nFixed Version: 2.9.10\nLink: [CVE-2019-14893](https://avd.aquasec.com/nvd/cve-2019-14893)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-10650",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10650\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10650](https://avd.aquasec.com/nvd/cve-2020-10650)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-10672",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10672\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10672](https://avd.aquasec.com/nvd/cve-2020-10672)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-10673",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10673\nSeverity: HIGH\nFixed Version: 2.9.10.4, 2.6.7.4\nLink: [CVE-2020-10673](https://avd.aquasec.com/nvd/cve-2020-10673)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-10968",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10968\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10968](https://avd.aquasec.com/nvd/cve-2020-10968)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-10969",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-10969\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-10969](https://avd.aquasec.com/nvd/cve-2020-10969)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-11111",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11111\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11111](https://avd.aquasec.com/nvd/cve-2020-11111)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-11112",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11112\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11112](https://avd.aquasec.com/nvd/cve-2020-11112)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-11113",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11113\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11113](https://avd.aquasec.com/nvd/cve-2020-11113)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-11619",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11619\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11619](https://avd.aquasec.com/nvd/cve-2020-11619)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-11620",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-11620\nSeverity: HIGH\nFixed Version: 2.9.10.4\nLink: [CVE-2020-11620](https://avd.aquasec.com/nvd/cve-2020-11620)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-14060",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14060\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14060](https://avd.aquasec.com/nvd/cve-2020-14060)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-14061",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14061\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14061](https://avd.aquasec.com/nvd/cve-2020-14061)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-14062",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14062\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14062](https://avd.aquasec.com/nvd/cve-2020-14062)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-14195",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-14195\nSeverity: HIGH\nFixed Version: 2.9.10.5\nLink: [CVE-2020-14195](https://avd.aquasec.com/nvd/cve-2020-14195)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-24616",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-24616\nSeverity: HIGH\nFixed Version: 2.9.10.6\nLink: [CVE-2020-24616](https://avd.aquasec.com/nvd/cve-2020-24616)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-24750",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-24750\nSeverity: HIGH\nFixed Version: 2.6.7.5, 2.9.10.6\nLink: [CVE-2020-24750](https://avd.aquasec.com/nvd/cve-2020-24750)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-25649",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-25649\nSeverity: HIGH\nFixed Version: 2.6.7.4, 2.9.10.7, 2.10.5.1\nLink: [CVE-2020-25649](https://avd.aquasec.com/nvd/cve-2020-25649)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-35490",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35490\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35490](https://avd.aquasec.com/nvd/cve-2020-35490)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-35491",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35491\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35491](https://avd.aquasec.com/nvd/cve-2020-35491)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-35728",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-35728\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-35728](https://avd.aquasec.com/nvd/cve-2020-35728)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36179",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36179\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36179](https://avd.aquasec.com/nvd/cve-2020-36179)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36180",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36180\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36180](https://avd.aquasec.com/nvd/cve-2020-36180)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36181",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36181\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36181](https://avd.aquasec.com/nvd/cve-2020-36181)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36182",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36182\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36182](https://avd.aquasec.com/nvd/cve-2020-36182)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36183",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36183\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36183](https://avd.aquasec.com/nvd/cve-2020-36183)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36184",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36184\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36184](https://avd.aquasec.com/nvd/cve-2020-36184)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36185",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36185\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36185](https://avd.aquasec.com/nvd/cve-2020-36185)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36186",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36186\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36186](https://avd.aquasec.com/nvd/cve-2020-36186)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36187",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36187\nSeverity: HIGH\nFixed Version: 2.9.10.8\nLink: [CVE-2020-36187](https://avd.aquasec.com/nvd/cve-2020-36187)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36188",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36188\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36188](https://avd.aquasec.com/nvd/cve-2020-36188)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36189",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36189\nSeverity: HIGH\nFixed Version: 2.9.10.8, 2.6.7.5\nLink: [CVE-2020-36189](https://avd.aquasec.com/nvd/cve-2020-36189)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2020-36518",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2020-36518\nSeverity: HIGH\nFixed Version: 2.13.2.1, 2.12.6.1\nLink: [CVE-2020-36518](https://avd.aquasec.com/nvd/cve-2020-36518)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2021-20190",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2021-20190\nSeverity: HIGH\nFixed Version: 2.9.10.7, 2.6.7.5\nLink: [CVE-2021-20190](https://avd.aquasec.com/nvd/cve-2021-20190)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-42003",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2022-42003\nSeverity: HIGH\nFixed Version: 2.12.7.1, 2.13.4.2\nLink: [CVE-2022-42003](https://avd.aquasec.com/nvd/cve-2022-42003)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-42004",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2022-42004\nSeverity: HIGH\nFixed Version: 2.12.7.1, 2.13.4\nLink: [CVE-2022-42004](https://avd.aquasec.com/nvd/cve-2022-42004)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-12384",
+            "severity": "WARNING",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12384\nSeverity: MEDIUM\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12384](https://avd.aquasec.com/nvd/cve-2019-12384)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-12814",
+            "severity": "WARNING",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: com.fasterxml.jackson.core:jackson-databind\nInstalled Version: 2.9.8\nVulnerability CVE-2019-12814\nSeverity: MEDIUM\nFixed Version: 2.9.9.1, 2.8.11.4, 2.7.9.6, 2.6.7.3\nLink: [CVE-2019-12814](https://avd.aquasec.com/nvd/cve-2019-12814)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 19
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2015-7501",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: commons-collections:commons-collections\nInstalled Version: 3.2.1\nVulnerability CVE-2015-7501\nSeverity: CRITICAL\nFixed Version: 3.2.2\nLink: [CVE-2015-7501](https://avd.aquasec.com/nvd/cve-2015-7501)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 36
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2015-6420",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: commons-collections:commons-collections\nInstalled Version: 3.2.1\nVulnerability CVE-2015-6420\nSeverity: HIGH\nFixed Version: 3.2.2\nLink: [CVE-2015-6420](https://avd.aquasec.com/nvd/cve-2015-6420)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 36
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2019-17571",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2019-17571\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2019-17571](https://avd.aquasec.com/nvd/cve-2019-17571)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 43
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-23305",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23305\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2022-23305](https://avd.aquasec.com/nvd/cve-2022-23305)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 43
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-23307",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23307\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2022-23307](https://avd.aquasec.com/nvd/cve-2022-23307)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 43
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2021-4104",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2021-4104\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2021-4104](https://avd.aquasec.com/nvd/cve-2021-4104)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 43
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-23302",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: log4j:log4j\nInstalled Version: 1.2.17\nVulnerability CVE-2022-23302\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2022-23302](https://avd.aquasec.com/nvd/cve-2022-23302)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 43
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2022-45688",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: org.json:json\nInstalled Version: 20180813\nVulnerability CVE-2022-45688\nSeverity: HIGH\nFixed Version: 20230227\nLink: [CVE-2022-45688](https://avd.aquasec.com/nvd/cve-2022-45688)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 50
+                }
+            }
+        },
+        {
+            "engineId": "Trivy",
+            "ruleId": "CVE-2023-5072",
+            "severity": "ERROR",
+            "type": "VULNERABILITY",
+            "primaryLocation": {
+                "message": "Package: org.json:json\nInstalled Version: 20180813\nVulnerability CVE-2023-5072\nSeverity: HIGH\nFixed Version: 20231013\nLink: [CVE-2023-5072](https://avd.aquasec.com/nvd/cve-2023-5072)",
+                "filePath": "pom.xml",
+                "textRange": {
+                    "startLine": 50
+                }
+            }
+        }
+    ]
+}
