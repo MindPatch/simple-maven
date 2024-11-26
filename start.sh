@@ -2,6 +2,6 @@
 
 dotnet ef database update
 dotnet watch run
-
+test
 
 # testgg
