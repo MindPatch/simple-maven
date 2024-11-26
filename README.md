@@ -7,7 +7,7 @@
 ### Docker
 
 ```
-docker-compose up
+docker-compose up 
 ```
 
 ### Manual
