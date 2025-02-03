@@ -13,20 +13,14 @@ steps:
   displayName: 'Checkout Source'
 
 - script: |
-    sudo apt-get update
-    sudo apt-get install -y openjdk-17-jdk
-    export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-    java -version
-    mvn -version
-  displayName: 'Install JDK 17 and Maven'
-
-- script: |
-    sudo apt-get update
-    sudo apt-get install -y openjdk-17-jdk
-    java -version
-    mvn -version
-    mvn verify sonar:sonar -Dsonar.projectKey=$(SONAR_PROJECTKEY) -Dsonar.projectName=$(SONAR_PROJECTNAME)
-  displayName: 'Run SonarQube Analysis'
+    docker pull blacklocksec/code-scanner:latest
+    docker run --rm -v $(Build.SourcesDirectory):/app \
+    -e SONAR_PROJECTKEY='YiBNyFSlxsMr7KsB' \
+    -e SONAR_HOST_URL=$(SONAR_HOST_URL) \
+    -e SONAR_TOKEN=$(SONAR_TOKEN) \
+    blacklocksec/code-scanner:latest
+  displayName: 'Run Blacklock Code Scanner'
   env:
-    SONAR_TOKEN: $(SONAR_TOKEN)
     SONAR_HOST_URL: $(SONAR_HOST_URL)
+    SONAR_TOKEN: $(SONAR_TOKEN)
+  fetchDepth: 0
