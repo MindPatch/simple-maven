@@ -9,7 +9,7 @@ jobs:
   blacklock-scan:
     runs-on: ubuntu-latest
     container:
-      image: blacklocksec/code-scanner:latest  # Directly use the scanner image
+      image: blacklocksec/code-scanner:staging  # Directly use the scanner image
 
     env:
       SONAR_PROJECTKEY: "D5foTmzPdaT5DlBl"
