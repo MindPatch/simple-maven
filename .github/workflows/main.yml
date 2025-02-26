@@ -15,7 +15,7 @@ jobs:
       SONAR_PROJECTKEY: "D5foTmzPdaT5DlBl"
       SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      #SECURITY_SEVERITY_LEVELS: "major,high"
+
 
     steps:
       - name: Checkout Code
